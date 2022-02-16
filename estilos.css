@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+body {
+    background-color: #dddbe7;
+    color: rgb(8, 14, 34);
+}
+
+#calculadora {
+    background: #feffff;
+    width: 35vw;
+    height: 70vh;
+    margin: 100px 465px;
+    border-radius: 30px;
+    padding-top: 10px;
+    -webkit-box-shadow: 5px 3px 5px 0px rgba(131, 138, 168, 0.75);
+    -moz-box-shadow: 5px 3px 5px 0px rgba(131, 138, 168, 0.75);
+    box-shadow: 5px 3px 5px 0px rgba(131, 138, 168, 0.75);
+}
+
+#calculadora .contenendor-calculador {
+    background-color: #feffff;
+    margin: 5px 70px;
+    text-align: center;
+    width: 360px;
+    height: 340px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+#calculadora .contenendor-calculador .formulario {
+    color: #040b1f;
+    background-color: #feffff;
+    padding-top: 10px;
+    width: 300px;
+    height: 280px;
+    margin-left: 30px;
+    margin-bottom: 65px;
+}
+
+#calculadora .contenendor-calculador .formulario h1 {
+    color: #02040e;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    padding-bottom: 20px;
+}
+
+#calculadora .contenendor-calculador .formulario label {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#calculadora .contenendor-calculador .formulario input {
+    height: 30px;
+}
+
+#calculadora .contenendor-calculador .resul {
+    border: 1px solid rgb(170, 166, 166);
+    width: 80px;
+    height: 18px;
+    margin: 0px 130px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(180, 186, 206, 0.582);
+}
